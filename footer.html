@@ -1,0 +1,46 @@
+ <footer>
+    <div class="footer main-width">
+        <a class="footer__logo" href="/">
+            <picture>
+                <source media="(max-width: 768px)" srcset="img/logo-blue-mobile.svg">
+                <img src="img/logo-blue.svg">
+            </picture>
+        </a>
+        <div class="footer__content">
+            <div class="footer__copyright">
+                © 2025,  Shkulev Media Holding<br>
+                Creative Studio
+            </div>
+            <div class="footer__links">
+                <a href="">
+                    <img src="img/icon-1.svg">
+                </a>
+                <a href="">
+                    <img src="img/icon-2.svg">
+                </a>
+                <a href="">
+                    <img src="img/icon-3.svg">
+                </a>
+            </div>
+        </div>
+        <a href="" class="footer__logo-womanru">
+            <img src="img/womanru_logo-blue.svg">
+        </a>
+    </div>
+    <div class="cursor"></div>
+
+        <button id="toTopBtn" class="to-top-link" aria-label="Наверх" style="background:none;border:none;cursor:pointer">
+        <svg xmlns="http://www.w3.org/2000/svg" width="70" height="70" fill="#004ea8" viewBox="0 0 24 24">
+            <path d="M7.41 15.41 12 10.83l4.59 4.58L18 14l-6-6-6 6z"/>
+        </svg>
+        </button>
+
+        <script>
+        document.getElementById("toTopBtn").addEventListener("click", function() {
+            window.scrollTo({ top: 0, behavior: "smooth" });
+        });
+        </script>
+
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/app.min.js"></script>
+</footer>

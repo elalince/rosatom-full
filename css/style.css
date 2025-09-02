@@ -520,6 +520,11 @@ header.inset .header:before, header.inset .header:after {
   align-items: center;
   justify-content: space-between;
 }
+footer .to-top-link {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+}
 
 /* keyframes example */
 @keyframes pulse {
@@ -1984,6 +1989,16 @@ header.inset .header:before, header.inset .header:after {
   }
   .to-top {
     display: none;
+  }
+
+  footer .to-top-link {
+    right: 5px;
+    bottom: 5px;
+  }
+
+  footer .to-top-link svg {
+    width: 40px;
+    height: 40px;
   }
 }
 @media (max-width: 560px) {
